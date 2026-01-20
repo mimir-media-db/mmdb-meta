@@ -1,33 +1,37 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-19",
+  "last_updated": "2026-01-20",
   "repositories": [
     {
       "name": "mmdb-schema-and-tools",
       "type": "infrastructure",
       "url": "https://github.com/mimir-media-db/mmdb-schema-and-tools",
-      "description": "JSON schemas, validation tools, and documentation"
+      "description": "JSON schemas, validation tools, and documentation",
+      "visibility": "public"
     },
     {
       "name": "mmdb-people",
       "type": "data",
       "url": "https://github.com/mimir-media-db/mmdb-people",
       "description": "Global people database",
-      "entity_count": 2
+      "entity_count": 2,
+      "visibility": "public"
     },
     {
       "name": "mmdb-2010",
       "type": "data",
       "url": "https://github.com/mimir-media-db/mmdb-2010",
       "description": "Movies and series from 2010",
-      "entity_count": 3,
-      "year": 2010
+      "entity_count": 8,
+      "year": 2010,
+      "visibility": "public"
     },
     {
       "name": "mmdb-meta",
       "type": "infrastructure",
       "url": "https://github.com/mimir-media-db/mmdb-meta",
-      "description": "Cross-repository metadata and registry"
+      "description": "Cross-repository metadata and registry",
+      "visibility": "public"
     }
   ]
 }
