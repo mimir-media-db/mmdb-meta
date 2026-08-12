@@ -2,10 +2,10 @@
   "backlog_offset": 210,
   "backlog_current_year": 2010,
   "last_recent_timestamp": "2026-08-12T19:59:41.950Z",
-  "last_run": "2026-08-12T19:59:42.090Z",
+  "last_run": "2026-08-12T20:04:27.345Z",
   "total_ingested": {
-    "movies": 42,
-    "series": 18,
-    "people": 200
+    "movies": 84,
+    "series": 36,
+    "people": 399
   }
 }
