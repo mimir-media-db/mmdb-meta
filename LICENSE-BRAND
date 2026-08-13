@@ -1,0 +1,40 @@
+# MMDB Brand Assets License
+
+The MMDB logo and brand assets in this directory (`assets/`) are **NOT** covered
+by the MIT license that applies to the rest of this project.
+
+## Logo
+
+**File**: `assets/logo.png`
+
+© 2026 mimir-media-db. All rights reserved.
+
+The MMDB logo is licensed under the
+[Creative Commons Attribution-NoDerivatives 4.0 International License (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/).
+
+### You MAY:
+
+- Display the logo to reference the MMDB project
+- Use the logo in articles, blog posts, or presentations about MMDB
+- Include the logo in tools or services that consume MMDB data
+
+### You MUST:
+
+- Provide attribution: "MMDB logo © 2026 mimir-media-db"
+- Link to this repository or the MMDB organization when possible
+
+### You MAY NOT:
+
+- Modify, alter, or create derivative versions of the logo
+- Use the logo to imply endorsement of unrelated projects
+- Use the logo in any way that suggests you created or own MMDB
+- Use the logo for commercial purposes without explicit permission
+
+## Other Brand Assets
+
+Any future brand assets added to `assets/` are covered by the same CC BY-ND 4.0
+license unless otherwise noted in this file.
+
+## Contact
+
+For brand usage questions or commercial licensing, open an issue in this repository.
