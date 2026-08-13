@@ -5,32 +5,58 @@
 ## What is This?
 
 This repository contains:
-- **repos.json** - Registry of all MMDB repositories
-- **stats.json** - Aggregate statistics across all repos
-- **ECOSYSTEM.md** - Overview of the MMDB ecosystem
-
-## Repository Registry
-
-See [repos.json](repos.json) for the complete list of MMDB repositories.
-
-## MMDB Ecosystem
-
-The MMDB project consists of multiple repositories:
-
-### Core Infrastructure
-- **mmdb-schema-and-tools** - Schemas, validation, and tooling
-- **mmdb-meta** - This repository (cross-repo metadata)
-
-### Data Repositories
-- **mmdb-people** - Global people database
-- **mmdb-YYYY** - Per-year data repositories (e.g., mmdb-2010)
+- **repos.json** — Registry of all MMDB repositories
+- **ingestion/state.json** — Ingestion pipeline state and progress
 
 ## Statistics
 
-- Total repositories: 3
-- Total movies: 3
-- Total people: 2
-- Years covered: 2010
+| Metric | Value |
+|--------|-------|
+| Total repositories | 7 |
+| Data repositories | 5 |
+| Movies ingested | 255 |
+| Series ingested | 124 |
+| People ingested | 975 |
+| Years covered | 2009–2026 |
+| Forward backlog | Year 2010 |
+| Backward backlog | Year 2009 |
+| Last ingestion | 2026-08-13 |
+
+## Repository Registry
+
+### Core Infrastructure
+
+- **[mmdb-meta](https://github.com/mimir-media-db/mmdb-meta)** — Cross-repository metadata and registry
+- **[mmdb-schema-and-tools](https://github.com/mimir-media-db/mmdb-schema-and-tools)** — JSON schemas, validation tools, and documentation
+
+### Data Repositories
+
+- **[mmdb-people](https://github.com/mimir-media-db/mmdb-people)** — Global people database
+- **[mmdb-2009](https://github.com/mimir-media-db/mmdb-2009)** — Movies and series from 2009
+- **[mmdb-2010](https://github.com/mimir-media-db/mmdb-2010)** — Movies and series from 2010
+- **[mmdb-2026](https://github.com/mimir-media-db/mmdb-2026)** — Movies and series from 2026
+- **[mmdb-2026](https://github.com/mimir-media-db/mmdb-2026)** — Movies and series from 2026
+
+## Ingestion Pipeline
+
+The MMDB ingestion pipeline runs automatically:
+- **3x daily** — Backlog ingestion (forward from 2010, backward from 2009)
+- **Nightly at 2 AM** — Current year (2026) ingestion
+
+Data is sourced from [Wikidata](https://www.wikidata.org/) via SPARQL queries.
+
+## How to Use MMDB
+
+```bash
+# Clone the repos you need
+git clone --depth 1 https://github.com/mimir-media-db/mmdb-people
+git clone --depth 1 https://github.com/mimir-media-db/mmdb-2026
+
+# Data is plain JSON — query locally
+cat mmdb-2026/data/movies/index.json | jq '.[0]'
+```
+
+See [mmdb-schema-and-tools](https://github.com/mimir-media-db/mmdb-schema-and-tools) for schemas, validation, and tooling.
 
 ## License
 
