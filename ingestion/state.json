@@ -2,7 +2,7 @@
   "backlog_offset": 210,
   "backlog_current_year": 2010,
   "last_recent_timestamp": "2026-08-12T19:59:41.950Z",
-  "last_run": "2026-08-13T04:05:52.123Z",
+  "last_run": "2026-08-13T04:06:08.630Z",
   "total_ingested": {
     "movies": 84,
     "series": 36,
@@ -14,9 +14,9 @@
     "run_id": "210d2960-3add-4822-b377-54ca24335af6"
   },
   "consecutive_empty_runs": 0,
-  "repos_created_this_run": 0,
+  "repos_created_this_run": 1,
   "last_repo_created": "mmdb-2026",
-  "last_repo_created_at": "2026-08-13T03:48:30.875Z",
+  "last_repo_created_at": "2026-08-13T04:06:08.502Z",
   "current_year_offset_movies": 100,
   "current_year_offset_series": 50,
   "current_year": 2026
