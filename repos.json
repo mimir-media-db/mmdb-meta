@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-20",
+  "last_updated": "2026-08-13",
   "repositories": [
     {
-      "name": "mmdb-schema-and-tools",
+      "name": "mmdb-meta",
       "type": "infrastructure",
-      "url": "https://github.com/mimir-media-db/mmdb-schema-and-tools",
-      "description": "JSON schemas, validation tools, and documentation",
+      "url": "https://github.com/mimir-media-db/mmdb-meta",
+      "description": "Cross-repository metadata and registry",
       "visibility": "public"
     },
     {
@@ -15,6 +15,13 @@
       "url": "https://github.com/mimir-media-db/mmdb-people",
       "description": "Global people database",
       "entity_count": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "mmdb-schema-and-tools",
+      "type": "infrastructure",
+      "url": "https://github.com/mimir-media-db/mmdb-schema-and-tools",
+      "description": "JSON schemas, validation tools, and documentation",
       "visibility": "public"
     },
     {
@@ -27,10 +34,12 @@
       "visibility": "public"
     },
     {
-      "name": "mmdb-meta",
-      "type": "infrastructure",
-      "url": "https://github.com/mimir-media-db/mmdb-meta",
-      "description": "Cross-repository metadata and registry",
+      "name": "mmdb-2026",
+      "type": "data",
+      "url": "https://github.com/mimir-media-db/mmdb-2026",
+      "description": "Movies and series from 2026",
+      "entity_count": 0,
+      "year": 2026,
       "visibility": "public"
     }
   ]
