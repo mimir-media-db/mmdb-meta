@@ -2,16 +2,16 @@
   "backlog_offset": 210,
   "backlog_current_year": 2010,
   "last_recent_timestamp": "2026-08-12T19:59:41.950Z",
-  "last_run": "2026-08-13T04:11:17.145Z",
+  "last_run": "2026-08-13T04:11:17.877Z",
   "total_ingested": {
     "movies": 184,
     "series": 86,
     "people": 594
   },
   "lock": {
-    "running": true,
-    "started_at": "2026-08-13T04:05:51.172Z",
-    "run_id": "210d2960-3add-4822-b377-54ca24335af6"
+    "running": false,
+    "started_at": null,
+    "run_id": null
   },
   "consecutive_empty_runs": 0,
   "repos_created_this_run": 1,
