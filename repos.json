@@ -50,15 +50,6 @@
       "entity_count": 0,
       "year": 2026,
       "visibility": "public"
-    },
-    {
-      "name": "mmdb-2026",
-      "type": "data",
-      "url": "https://github.com/mimir-media-db/mmdb-2026",
-      "description": "Movies and series from 2026",
-      "entity_count": 0,
-      "year": 2026,
-      "visibility": "public"
     }
   ]
 }
