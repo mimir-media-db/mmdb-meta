@@ -12,8 +12,8 @@ This repository contains:
 
 | Metric | Value |
 |--------|-------|
-| Total repositories | 7 |
-| Data repositories | 5 |
+| Total repositories | 6 |
+| Data repositories | 4 |
 | Movies ingested | 255 |
 | Series ingested | 124 |
 | People ingested | 975 |
@@ -34,7 +34,6 @@ This repository contains:
 - **[mmdb-people](https://github.com/mimir-media-db/mmdb-people)** — Global people database
 - **[mmdb-2009](https://github.com/mimir-media-db/mmdb-2009)** — Movies and series from 2009
 - **[mmdb-2010](https://github.com/mimir-media-db/mmdb-2010)** — Movies and series from 2010
-- **[mmdb-2026](https://github.com/mimir-media-db/mmdb-2026)** — Movies and series from 2026
 - **[mmdb-2026](https://github.com/mimir-media-db/mmdb-2026)** — Movies and series from 2026
 
 ## Ingestion Pipeline
