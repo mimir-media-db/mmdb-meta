@@ -25,6 +25,15 @@
       "visibility": "public"
     },
     {
+      "name": "mmdb-2009",
+      "type": "data",
+      "url": "https://github.com/mimir-media-db/mmdb-2009",
+      "description": "Movies and series from 2009",
+      "entity_count": 0,
+      "year": 2009,
+      "visibility": "public"
+    },
+    {
       "name": "mmdb-2010",
       "type": "data",
       "url": "https://github.com/mimir-media-db/mmdb-2010",
