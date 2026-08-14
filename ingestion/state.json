@@ -4,7 +4,7 @@
   "backward_year": 2009,
   "backward_offset": 308,
   "last_recent_timestamp": "2026-08-14T09:54:52.238Z",
-  "last_run": "2026-08-14T14:29:13.912Z",
+  "last_run": "2026-08-14T18:24:19.719Z",
   "total_ingested": {
     "movies": 982,
     "series": 460,
@@ -12,8 +12,8 @@
   },
   "lock": {
     "running": true,
-    "started_at": "2026-08-14T14:21:04.946Z",
-    "run_id": "7ba108b6-2b9f-49a1-81d8-446a369f2b1f"
+    "started_at": "2026-08-14T18:24:19.614Z",
+    "run_id": "24d3ba40-dd4a-4d4c-a01d-e28b960df1c8"
   },
   "consecutive_empty_runs": 0,
   "repos_created_this_run": 0,
