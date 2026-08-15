@@ -2,9 +2,9 @@
   "backlog_offset": 938,
   "backlog_current_year": 2010,
   "backward_year": 2009,
-  "backward_offset": 658,
+  "backward_offset": 728,
   "last_recent_timestamp": "2026-08-14T09:54:52.238Z",
-  "last_run": "2026-08-15T14:39:32.008Z",
+  "last_run": "2026-08-15T14:39:46.388Z",
   "total_ingested": {
     "movies": 1541,
     "series": 700,
