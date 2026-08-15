@@ -4,11 +4,11 @@
   "backward_year": 2009,
   "backward_offset": 868,
   "last_recent_timestamp": "2026-08-14T09:54:52.238Z",
-  "last_run": "2026-08-15T22:45:36.941Z",
+  "last_run": "2026-08-15T22:52:16.011Z",
   "total_ingested": {
-    "movies": 1820,
-    "series": 820,
-    "people": 4056
+    "movies": 1959,
+    "series": 880,
+    "people": 4252
   },
   "lock": {
     "running": true,
