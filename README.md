@@ -19,7 +19,7 @@ This repository contains:
 | People ingested | 5,595 |
 | Years covered | 2009–2026 |
 | Forward backlog | Year 2010 |
-| Backward backlog | Year 2009 |
+| Backward backlog | Year 2008 |
 | Last ingestion | 2026-08-17 |
 
 ## Repository Registry
@@ -39,7 +39,7 @@ This repository contains:
 ## Ingestion Pipeline
 
 The MMDB ingestion pipeline runs automatically:
-- **3x daily** — Backlog ingestion (forward from 2010, backward from 2009)
+- **3x daily** — Backlog ingestion (forward from 2010, backward from 2008)
 - **Nightly at 2 AM** — Current year (2026) ingestion
 
 Data is sourced from [Wikidata](https://www.wikidata.org/) via SPARQL queries.
