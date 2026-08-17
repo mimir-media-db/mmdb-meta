@@ -20,7 +20,7 @@ This repository contains:
 | Years covered | 2009–2026 |
 | Forward backlog | Year 2010 |
 | Backward backlog | Year 2009 |
-| Last ingestion | 2026-08-16 |
+| Last ingestion | 2026-08-17 |
 
 ## Repository Registry
 
