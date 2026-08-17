@@ -4,7 +4,7 @@
   "backward_year": 2009,
   "backward_offset": 1288,
   "last_recent_timestamp": "2026-08-14T09:54:52.238Z",
-  "last_run": "2026-08-17T08:31:05.384Z",
+  "last_run": "2026-08-17T08:31:36.236Z",
   "total_ingested": {
     "movies": 2840,
     "series": 1274,
@@ -16,9 +16,9 @@
     "run_id": "35f94d15-9cef-4dd5-96c5-69954cde6989"
   },
   "consecutive_empty_runs": 0,
-  "repos_created_this_run": 0,
-  "last_repo_created": "mmdb-2009",
-  "last_repo_created_at": "2026-08-13T04:27:10.591Z",
+  "repos_created_this_run": 1,
+  "last_repo_created": "mmdb-2010",
+  "last_repo_created_at": "2026-08-17T08:31:36.038Z",
   "current_year_offset_movies": 500,
   "current_year_offset_series": 250,
   "current_year": 2026
