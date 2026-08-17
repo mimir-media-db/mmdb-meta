@@ -14,9 +14,9 @@ This repository contains:
 |--------|-------|
 | Total repositories | 6 |
 | Data repositories | 4 |
-| Movies ingested | 2,564 |
-| Series ingested | 1,167 |
-| People ingested | 5,199 |
+| Movies ingested | 2,703 |
+| Series ingested | 1,227 |
+| People ingested | 5,397 |
 | Years covered | 2009–2026 |
 | Forward backlog | Year 2010 |
 | Backward backlog | Year 2009 |
