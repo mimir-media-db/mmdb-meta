@@ -1,62 +1,118 @@
-# MMDB Meta
+# MMDB — Mimir Media Database
 
-> Cross-repository metadata and registry for the MMDB ecosystem.
+<p align="center">
+  <img src="assets/logo.png" alt="MMDB Logo" width="200">
+</p>
 
-## What is This?
+> Open-source media metadata. Plain JSON. Distributed via Git.
 
-This repository contains:
-- **repos.json** — Registry of all MMDB repositories
-- **ingestion/state.json** — Ingestion pipeline state and progress
-
-## Statistics
+## 📊 Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total repositories | 6 |
-| Data repositories | 4 |
-| Movies ingested | 2,840 |
-| Series ingested | 1,274 |
-| People ingested | 5,793 |
-| Years covered | 2009–2026 |
-| Forward backlog | Year 2010 |
-| Backward backlog | Year 2008 |
-| Last ingestion | 2026-08-17 |
+| 🎬 Movies | **87,115** |
+| 📺 Series | **31,727** |
+| 👤 People | **69,516** |
+| 📅 Years covered | **2000-2026** (27 repos) |
+| 🔤 People repos | **26** (a–z) |
+| 📦 Total repos | **56** |
 
-## Repository Registry
+*Last updated: 2026-08-19*
 
-### Core Infrastructure
+## 🏗️ Repository Structure
 
-- **[mmdb-meta](https://github.com/mimir-media-db/mmdb-meta)** — Cross-repository metadata and registry
-- **[mmdb-schema-and-tools](https://github.com/mimir-media-db/mmdb-schema-and-tools)** — JSON schemas, validation tools, and documentation
+All data lives in the [mimir-media-db](https://github.com/mimir-media-db) GitHub organization.
 
-### Data Repositories
+### Year Repos (27)
 
-- **[mmdb-people](https://github.com/mimir-media-db/mmdb-people)** — Global people database
-- **[mmdb-2009](https://github.com/mimir-media-db/mmdb-2009)** — Movies and series from 2009
-- **[mmdb-2010](https://github.com/mimir-media-db/mmdb-2010)** — Movies and series from 2010
-- **[mmdb-2026](https://github.com/mimir-media-db/mmdb-2026)** — Movies and series from 2026
+Each year has its own repository containing movies and series released that year:
 
-## Ingestion Pipeline
-
-The MMDB ingestion pipeline runs automatically:
-- **3x daily** — Backlog ingestion (forward from 2010, backward from 2008)
-- **Nightly at 2 AM** — Current year (2026) ingestion
-
-Data is sourced from [Wikidata](https://www.wikidata.org/) via SPARQL queries.
-
-## How to Use MMDB
-
-```bash
-# Clone the repos you need
-git clone --depth 1 https://github.com/mimir-media-db/mmdb-people
-git clone --depth 1 https://github.com/mimir-media-db/mmdb-2026
-
-# Data is plain JSON — query locally
-cat mmdb-2026/data/movies/index.json | jq '.[0]'
+```
+mmdb-2000  →  mmdb-2026
 ```
 
-See [mmdb-schema-and-tools](https://github.com/mimir-media-db/mmdb-schema-and-tools) for schemas, validation, and tooling.
+Format: `mmdb-{YYYY}` — e.g., `mmdb-2024`, `mmdb-2010`
 
-## License
+#### Top Years by Movie Count
 
-MIT
+| Year | Movies | Series |
+|------|--------|--------|
+| [2019](https://github.com/mimir-media-db/mmdb-2019) | 5,672 | 1,254 |
+| [2012](https://github.com/mimir-media-db/mmdb-2012) | 5,486 | 1,648 |
+| [2011](https://github.com/mimir-media-db/mmdb-2011) | 5,068 | 1,603 |
+| [2009](https://github.com/mimir-media-db/mmdb-2009) | 5,066 | 1,455 |
+| [2010](https://github.com/mimir-media-db/mmdb-2010) | 5,058 | 1,428 |
+| [2008](https://github.com/mimir-media-db/mmdb-2008) | 4,938 | 1,401 |
+| [2007](https://github.com/mimir-media-db/mmdb-2007) | 4,697 | 1,274 |
+| [2022](https://github.com/mimir-media-db/mmdb-2022) | 4,552 | 1,373 |
+| [2006](https://github.com/mimir-media-db/mmdb-2006) | 4,502 | 1,190 |
+| [2023](https://github.com/mimir-media-db/mmdb-2023) | 4,425 | 1,228 |
+
+### People Repos (26)
+
+People data is sharded alphabetically by last name initial:
+
+```
+mmdb-people-a  →  mmdb-people-z
+```
+
+Format: `mmdb-people-{letter}` — e.g., `mmdb-people-a`, `mmdb-people-m`
+
+Each repo contains person records (actors, directors, producers, writers) whose last name starts with that letter. This split keeps individual repos under GitHub's size limits while providing fast clones.
+
+| Letter | Count | | Letter | Count |
+|--------|-------|-|--------|-------|
+| A | 7,230 | N | 2,325 |
+| B | 3,234 | O | 965 |
+| C | 4,107 | P | 3,681 |
+| D | 4,129 | Q | 56 |
+| E | 2,722 | R | 4,471 |
+| F | 1,986 | S | 6,033 |
+| G | 2,838 | T | 3,265 |
+| H | 2,143 | U | 340 |
+| I | 1,404 | V | 1,713 |
+| J | 7,503 | W | 865 |
+| K | 3,412 | X | 98 |
+| L | 3,525 | Y | 923 |
+| M | 0 | Z | 548 |
+
+### Infrastructure
+
+- **[mmdb-meta](https://github.com/mimir-media-db/mmdb-meta)** — Cross-repository metadata and registry for MMDB
+- **[mmdb-people](https://github.com/mimir-media-db/mmdb-people)** — Global people database for MMDB
+- **[mmdb-schema-and-tools](https://github.com/mimir-media-db/mmdb-schema-and-tools)** — JSON schemas, validation tools, ingestion pipeline
+
+## 📖 How to Use
+
+```bash
+# Clone a specific year
+git clone --depth 1 https://github.com/mimir-media-db/mmdb-2024
+
+# Browse movies
+ls mmdb-2024/data/movies/
+cat mmdb-2024/data/movies/index.json | jq '.[0:5]'
+
+# Clone people for a letter
+git clone --depth 1 https://github.com/mimir-media-db/mmdb-people-s
+
+# Browse people
+cat mmdb-people-s/data/people/index.json | jq '.[0:3]'
+```
+
+### Data Format
+
+All data is plain JSON following versioned schemas. Each entity has:
+- A stable ID: `mmdb-{type}-{wikidata-id}`
+- A schema version header
+- Structured metadata from Wikidata
+
+See [mmdb-schema-and-tools](https://github.com/mimir-media-db/mmdb-schema-and-tools) for schemas and validation tools.
+
+## 🔄 Automated Updates
+
+Statistics are updated daily via GitHub Actions. The ingestion pipeline runs 3× daily, pulling new data from [Wikidata](https://www.wikidata.org/) via SPARQL queries.
+
+## 📄 License
+
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (sourced from Wikidata)
+Code & Branding: MIT
