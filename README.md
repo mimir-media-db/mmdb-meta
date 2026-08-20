@@ -12,12 +12,12 @@
 |--------|-------|
 | 🎬 Movies | **87,115** |
 | 📺 Series | **31,727** |
-| 👤 People | **73,922** |
+| 👤 People | **76,367** |
 | 📅 Years covered | **2000-2026** (27 repos) |
 | 🔤 People repos | **26** (a–z) |
 | 📦 Total repos | **56** |
 
-*Last updated: 2026-08-19*
+*Last updated: 2026-08-20*
 
 ## 🏗️ Repository Structure
 
@@ -62,19 +62,19 @@ Each repo contains person records (actors, directors, producers, writers) whose 
 
 | Letter | Count | | Letter | Count |
 |--------|-------|-|--------|-------|
-| A | 0 | N | 5,086 |
-| B | 6,163 | O | 2,213 |
-| C | 0 | P | 6,969 |
-| D | 0 | Q | 148 |
-| E | 5,714 | R | 0 |
-| F | 3,971 | S | 0 |
-| G | 5,309 | T | 6,673 |
-| H | 4,355 | U | 663 |
-| I | 2,939 | V | 3,502 |
-| J | 0 | W | 1,690 |
-| K | 7,338 | X | 259 |
-| L | 7,460 | Y | 2,202 |
-| M | 0 | Z | 1,268 |
+| A | 0 | N | 5,256 |
+| B | 6,379 | O | 2,270 |
+| C | 0 | P | 7,246 |
+| D | 0 | Q | 152 |
+| E | 5,877 | R | 0 |
+| F | 4,101 | S | 0 |
+| G | 5,543 | T | 6,896 |
+| H | 4,498 | U | 697 |
+| I | 3,037 | V | 3,611 |
+| J | 0 | W | 1,762 |
+| K | 7,530 | X | 267 |
+| L | 7,675 | Y | 2,265 |
+| M | 0 | Z | 1,305 |
 
 ### Infrastructure
 
