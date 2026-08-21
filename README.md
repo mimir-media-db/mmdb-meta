@@ -11,13 +11,13 @@
 | Metric | Value |
 |--------|-------|
 | 🎬 Movies | **87,115** |
-| 📺 Series | **31,727** |
-| 👤 People | **76,367** |
+| 📺 Series | **31,728** |
+| 👤 People | **64,595** |
 | 📅 Years covered | **2000-2026** (27 repos) |
 | 🔤 People repos | **26** (a–z) |
 | 📦 Total repos | **56** |
 
-*Last updated: 2026-08-20*
+*Last updated: 2026-08-21*
 
 ## 🏗️ Repository Structure
 
@@ -40,7 +40,7 @@ Format: `mmdb-{YYYY}` — e.g., `mmdb-2024`, `mmdb-2010`
 | [2019](https://github.com/mimir-media-db/mmdb-2019) | 5,672 | 1,254 |
 | [2012](https://github.com/mimir-media-db/mmdb-2012) | 5,486 | 1,648 |
 | [2011](https://github.com/mimir-media-db/mmdb-2011) | 5,068 | 1,603 |
-| [2009](https://github.com/mimir-media-db/mmdb-2009) | 5,066 | 1,455 |
+| [2009](https://github.com/mimir-media-db/mmdb-2009) | 5,066 | 1,456 |
 | [2010](https://github.com/mimir-media-db/mmdb-2010) | 5,058 | 1,428 |
 | [2008](https://github.com/mimir-media-db/mmdb-2008) | 4,938 | 1,401 |
 | [2007](https://github.com/mimir-media-db/mmdb-2007) | 4,697 | 1,274 |
@@ -62,19 +62,19 @@ Each repo contains person records (actors, directors, producers, writers) whose 
 
 | Letter | Count | | Letter | Count |
 |--------|-------|-|--------|-------|
-| A | 0 | N | 5,256 |
-| B | 6,379 | O | 2,270 |
-| C | 0 | P | 7,246 |
-| D | 0 | Q | 152 |
-| E | 5,877 | R | 0 |
-| F | 4,101 | S | 0 |
-| G | 5,543 | T | 6,896 |
-| H | 4,498 | U | 697 |
-| I | 3,037 | V | 3,611 |
-| J | 0 | W | 1,762 |
-| K | 7,530 | X | 267 |
-| L | 7,675 | Y | 2,265 |
-| M | 0 | Z | 1,305 |
+| A | 0 | N | 5,495 |
+| B | 6,724 | O | 2,414 |
+| C | 0 | P | 7,657 |
+| D | 0 | Q | 157 |
+| E | 6,216 | R | 0 |
+| F | 4,301 | S | 0 |
+| G | 5,853 | T | 7,304 |
+| H | 4,747 | U | 736 |
+| I | 3,216 | V | 3,809 |
+| J | 0 | W | 1,882 |
+| K | 0 | X | 287 |
+| L | 0 | Y | 2,425 |
+| M | 0 | Z | 1,372 |
 
 ### Infrastructure
 
