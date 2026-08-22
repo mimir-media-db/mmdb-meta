@@ -97,9 +97,23 @@ async function fetchIndexCount(token, repoName, indexPath) {
     token,
     `/repos/${ORG}/${repoName}/contents/${indexPath}`
   );
-  if (!data || !data.content) return 0;
+  if (!data) return 0;
 
-  const content = Buffer.from(data.content, 'base64').toString('utf8');
+  let content;
+  if (data.content) {
+    // File < 1MB: content is base64-encoded inline
+    content = Buffer.from(data.content, 'base64').toString('utf8');
+  } else if (data.download_url) {
+    // File >= 1MB: must download via raw URL
+    const res = await fetch(data.download_url, {
+      headers: { Authorization: `Bearer ${token}` },
+    });
+    if (!res.ok) return 0;
+    content = await res.text();
+  } else {
+    return 0;
+  }
+
   try {
     const parsed = JSON.parse(content);
     return Array.isArray(parsed) ? parsed.length : 0;
