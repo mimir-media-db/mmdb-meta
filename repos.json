@@ -216,7 +216,7 @@
       "type": "year",
       "year": 2026,
       "url": "https://github.com/mimir-media-db/mmdb-2026",
-      "movies": 1628,
+      "movies": 1666,
       "series": 463
     },
     {
@@ -264,21 +264,21 @@
       "type": "people",
       "letter": "e",
       "url": "https://github.com/mimir-media-db/mmdb-people-e",
-      "count": 6216
+      "count": 6218
     },
     {
       "name": "mmdb-people-f",
       "type": "people",
       "letter": "f",
       "url": "https://github.com/mimir-media-db/mmdb-people-f",
-      "count": 4301
+      "count": 4305
     },
     {
       "name": "mmdb-people-g",
       "type": "people",
       "letter": "g",
       "url": "https://github.com/mimir-media-db/mmdb-people-g",
-      "count": 5853
+      "count": 5855
     },
     {
       "name": "mmdb-people-h",
@@ -327,7 +327,7 @@
       "type": "people",
       "letter": "n",
       "url": "https://github.com/mimir-media-db/mmdb-people-n",
-      "count": 5495
+      "count": 5501
     },
     {
       "name": "mmdb-people-o",
@@ -341,7 +341,7 @@
       "type": "people",
       "letter": "p",
       "url": "https://github.com/mimir-media-db/mmdb-people-p",
-      "count": 7657
+      "count": 7660
     },
     {
       "name": "mmdb-people-q",
@@ -421,9 +421,9 @@
     }
   ],
   "totals": {
-    "movies": 87115,
+    "movies": 87153,
     "series": 31728,
-    "people": 64595,
+    "people": 64612,
     "year_repos": 27,
     "people_repos": 26,
     "years_covered": "2000-2026"

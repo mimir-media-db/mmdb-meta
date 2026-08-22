@@ -10,9 +10,9 @@
 
 | Metric | Value |
 |--------|-------|
-| 🎬 Movies | **87,115** |
+| 🎬 Movies | **87,153** |
 | 📺 Series | **31,728** |
-| 👤 People | **64,595** |
+| 👤 People | **64,612** |
 | 📅 Years covered | **2000-2026** (27 repos) |
 | 🔤 People repos | **26** (a–z) |
 | 📦 Total repos | **56** |
@@ -62,13 +62,13 @@ Each repo contains person records (actors, directors, producers, writers) whose 
 
 | Letter | Count | | Letter | Count |
 |--------|-------|-|--------|-------|
-| A | 0 | N | 5,495 |
+| A | 0 | N | 5,501 |
 | B | 6,724 | O | 2,414 |
-| C | 0 | P | 7,657 |
+| C | 0 | P | 7,660 |
 | D | 0 | Q | 157 |
-| E | 6,216 | R | 0 |
-| F | 4,301 | S | 0 |
-| G | 5,853 | T | 7,304 |
+| E | 6,218 | R | 0 |
+| F | 4,305 | S | 0 |
+| G | 5,855 | T | 7,304 |
 | H | 4,747 | U | 736 |
 | I | 3,216 | V | 3,809 |
 | J | 0 | W | 1,882 |
