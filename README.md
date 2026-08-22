@@ -10,9 +10,9 @@
 
 | Metric | Value |
 |--------|-------|
-| 🎬 Movies | **87,153** |
+| 🎬 Movies | **125,860** |
 | 📺 Series | **31,728** |
-| 👤 People | **64,612** |
+| 👤 People | **172,962** |
 | 📅 Years covered | **2000-2026** (27 repos) |
 | 🔤 People repos | **26** (a–z) |
 | 📦 Total repos | **56** |
@@ -37,16 +37,16 @@ Format: `mmdb-{YYYY}` — e.g., `mmdb-2024`, `mmdb-2010`
 
 | Year | Movies | Series |
 |------|--------|--------|
+| [2016](https://github.com/mimir-media-db/mmdb-2016) | 8,324 | 1,232 |
+| [2017](https://github.com/mimir-media-db/mmdb-2017) | 6,306 | 1,184 |
+| [2015](https://github.com/mimir-media-db/mmdb-2015) | 6,241 | 1,432 |
+| [2018](https://github.com/mimir-media-db/mmdb-2018) | 6,201 | 1,236 |
+| [2014](https://github.com/mimir-media-db/mmdb-2014) | 6,008 | 1,457 |
 | [2019](https://github.com/mimir-media-db/mmdb-2019) | 5,672 | 1,254 |
+| [2013](https://github.com/mimir-media-db/mmdb-2013) | 5,627 | 1,532 |
 | [2012](https://github.com/mimir-media-db/mmdb-2012) | 5,486 | 1,648 |
 | [2011](https://github.com/mimir-media-db/mmdb-2011) | 5,068 | 1,603 |
 | [2009](https://github.com/mimir-media-db/mmdb-2009) | 5,066 | 1,456 |
-| [2010](https://github.com/mimir-media-db/mmdb-2010) | 5,058 | 1,428 |
-| [2008](https://github.com/mimir-media-db/mmdb-2008) | 4,938 | 1,401 |
-| [2007](https://github.com/mimir-media-db/mmdb-2007) | 4,697 | 1,274 |
-| [2022](https://github.com/mimir-media-db/mmdb-2022) | 4,552 | 1,373 |
-| [2006](https://github.com/mimir-media-db/mmdb-2006) | 4,502 | 1,190 |
-| [2023](https://github.com/mimir-media-db/mmdb-2023) | 4,425 | 1,228 |
 
 ### People Repos (26)
 
@@ -62,19 +62,19 @@ Each repo contains person records (actors, directors, producers, writers) whose 
 
 | Letter | Count | | Letter | Count |
 |--------|-------|-|--------|-------|
-| A | 0 | N | 5,501 |
+| A | 16,718 | N | 5,501 |
 | B | 6,724 | O | 2,414 |
-| C | 0 | P | 7,660 |
-| D | 0 | Q | 157 |
-| E | 6,218 | R | 0 |
-| F | 4,305 | S | 0 |
+| C | 8,954 | P | 7,660 |
+| D | 8,878 | Q | 157 |
+| E | 6,218 | R | 9,414 |
+| F | 4,305 | S | 13,890 |
 | G | 5,855 | T | 7,304 |
 | H | 4,747 | U | 736 |
 | I | 3,216 | V | 3,809 |
-| J | 0 | W | 1,882 |
-| K | 0 | X | 287 |
-| L | 0 | Y | 2,425 |
-| M | 0 | Z | 1,372 |
+| J | 16,276 | W | 1,882 |
+| K | 7,909 | X | 287 |
+| L | 8,042 | Y | 2,425 |
+| M | 18,269 | Z | 1,372 |
 
 ### Infrastructure
 
