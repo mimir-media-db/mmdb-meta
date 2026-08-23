@@ -11,7 +11,7 @@
 | Metric | Value |
 |--------|-------|
 | 🎬 Movies | **125,860** |
-| 📺 Series | **31,728** |
+| 📺 Series | **31,497** |
 | 👤 People | **172,962** |
 | 📅 Years covered | **2000-2026** (27 repos) |
 | 🔤 People repos | **26** (a–z) |
