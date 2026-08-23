@@ -120,6 +120,7 @@ MMDB enriches title metadata beyond Wikidata ingestion:
 |-------|--------|----------|
 | `genres` | IMDB bulk dataset (`title.basics.tsv.gz`) + Wikidata fallback | **94%** |
 | `is_adult` | IMDB bulk dataset + Wikidata genre classification | **94%** |
+| `countries` | Wikidata P495 (country of origin) batch SPARQL | **95%** |
 | `credits` | Wikidata (directors, cast, writers, producers) | **~80%** |
 
 ### Genre & Adult Classification
