@@ -112,6 +112,25 @@ See [mmdb-schema-and-tools](https://github.com/mimir-media-db/mmdb-schema-and-to
 
 Statistics are updated daily via GitHub Actions. The ingestion pipeline runs 3× daily, pulling new data from [Wikidata](https://www.wikidata.org/) via SPARQL queries.
 
+## 🏷️ Data Enrichment
+
+MMDB enriches title metadata beyond Wikidata ingestion:
+
+| Field | Source | Coverage |
+|-------|--------|----------|
+| `genres` | IMDB bulk dataset (`title.basics.tsv.gz`) + Wikidata fallback | **94%** |
+| `is_adult` | IMDB bulk dataset + Wikidata genre classification | **94%** |
+| `credits` | Wikidata (directors, cast, writers, producers) | **~80%** |
+
+### Genre & Adult Classification
+
+- **Primary source**: IMDB `title.basics.tsv.gz` (free, non-commercial, refreshed daily)
+- **Fallback**: Wikidata batch SPARQL for titles without IMDB IDs (~12% of catalog)
+- **`is_adult`**: Boolean flag matching IMDB/TMDB classification — `true` only for pornographic content (not merely mature/violent content like Game of Thrones)
+- **`genres`**: Up to 3 genres per title (e.g., `["Drama", "Fantasy"]`)
+
+Enrichment runs via `enrich-from-imdb.ts` in [mmdb-schema-and-tools](https://github.com/mimir-media-db/mmdb-schema-and-tools).
+
 ## 📄 License
 
 Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (sourced from Wikidata)
