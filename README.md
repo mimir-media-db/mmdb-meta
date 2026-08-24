@@ -10,14 +10,14 @@
 
 | Metric | Value |
 |--------|-------|
-| 🎬 Movies | **125,860** |
-| 📺 Series | **31,497** |
+| 🎬 Movies | **126,008** |
+| 📺 Series | **31,986** |
 | 👤 People | **172,962** |
 | 📅 Years covered | **2000-2026** (27 repos) |
 | 🔤 People repos | **26** (a–z) |
 | 📦 Total repos | **56** |
 
-*Last updated: 2026-08-22*
+*Last updated: 2026-08-24*
 
 ## 🏗️ Repository Structure
 
@@ -37,16 +37,16 @@ Format: `mmdb-{YYYY}` — e.g., `mmdb-2024`, `mmdb-2010`
 
 | Year | Movies | Series |
 |------|--------|--------|
-| [2016](https://github.com/mimir-media-db/mmdb-2016) | 8,324 | 1,232 |
-| [2017](https://github.com/mimir-media-db/mmdb-2017) | 6,306 | 1,184 |
-| [2015](https://github.com/mimir-media-db/mmdb-2015) | 6,241 | 1,432 |
-| [2018](https://github.com/mimir-media-db/mmdb-2018) | 6,201 | 1,236 |
-| [2014](https://github.com/mimir-media-db/mmdb-2014) | 6,008 | 1,457 |
-| [2019](https://github.com/mimir-media-db/mmdb-2019) | 5,672 | 1,254 |
-| [2013](https://github.com/mimir-media-db/mmdb-2013) | 5,627 | 1,532 |
+| [2016](https://github.com/mimir-media-db/mmdb-2016) | 8,324 | 1,229 |
+| [2017](https://github.com/mimir-media-db/mmdb-2017) | 6,306 | 1,181 |
+| [2015](https://github.com/mimir-media-db/mmdb-2015) | 6,241 | 1,429 |
+| [2018](https://github.com/mimir-media-db/mmdb-2018) | 6,201 | 1,231 |
+| [2014](https://github.com/mimir-media-db/mmdb-2014) | 6,008 | 1,450 |
+| [2019](https://github.com/mimir-media-db/mmdb-2019) | 5,672 | 1,248 |
+| [2013](https://github.com/mimir-media-db/mmdb-2013) | 5,627 | 1,530 |
 | [2012](https://github.com/mimir-media-db/mmdb-2012) | 5,486 | 1,648 |
-| [2011](https://github.com/mimir-media-db/mmdb-2011) | 5,068 | 1,603 |
-| [2009](https://github.com/mimir-media-db/mmdb-2009) | 5,066 | 1,456 |
+| [2011](https://github.com/mimir-media-db/mmdb-2011) | 5,068 | 1,601 |
+| [2009](https://github.com/mimir-media-db/mmdb-2009) | 5,066 | 1,595 |
 
 ### People Repos (26)
 
@@ -111,26 +111,6 @@ See [mmdb-schema-and-tools](https://github.com/mimir-media-db/mmdb-schema-and-to
 ## 🔄 Automated Updates
 
 Statistics are updated daily via GitHub Actions. The ingestion pipeline runs 3× daily, pulling new data from [Wikidata](https://www.wikidata.org/) via SPARQL queries.
-
-## 🏷️ Data Enrichment
-
-MMDB enriches title metadata beyond Wikidata ingestion:
-
-| Field | Source | Coverage |
-|-------|--------|----------|
-| `genres` | IMDB bulk dataset (`title.basics.tsv.gz`) + Wikidata fallback | **94%** |
-| `is_adult` | IMDB bulk dataset + Wikidata genre classification | **94%** |
-| `countries` | Wikidata P495 (country of origin) batch SPARQL | **95%** |
-| `credits` | Wikidata (directors, cast, writers, producers) | **~80%** |
-
-### Genre & Adult Classification
-
-- **Primary source**: IMDB `title.basics.tsv.gz` (free, non-commercial, refreshed daily)
-- **Fallback**: Wikidata batch SPARQL for titles without IMDB IDs (~12% of catalog)
-- **`is_adult`**: Boolean flag matching IMDB/TMDB classification — `true` only for pornographic content (not merely mature/violent content like Game of Thrones)
-- **`genres`**: Up to 3 genres per title (e.g., `["Drama", "Fantasy"]`)
-
-Enrichment runs via `enrich-from-imdb.ts` in [mmdb-schema-and-tools](https://github.com/mimir-media-db/mmdb-schema-and-tools).
 
 ## 📄 License
 

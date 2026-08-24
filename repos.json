@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "last_updated": "2026-08-22",
+  "last_updated": "2026-08-24",
   "org": "mimir-media-db",
   "repositories": [
     {
@@ -41,7 +41,7 @@
       "year": 2004,
       "url": "https://github.com/mimir-media-db/mmdb-2004",
       "movies": 3672,
-      "series": 890
+      "series": 889
     },
     {
       "name": "mmdb-2005",
@@ -57,7 +57,7 @@
       "year": 2006,
       "url": "https://github.com/mimir-media-db/mmdb-2006",
       "movies": 4502,
-      "series": 1190
+      "series": 1189
     },
     {
       "name": "mmdb-2007",
@@ -65,7 +65,7 @@
       "year": 2007,
       "url": "https://github.com/mimir-media-db/mmdb-2007",
       "movies": 4697,
-      "series": 1274
+      "series": 1271
     },
     {
       "name": "mmdb-2008",
@@ -73,7 +73,7 @@
       "year": 2008,
       "url": "https://github.com/mimir-media-db/mmdb-2008",
       "movies": 4938,
-      "series": 1401
+      "series": 1397
     },
     {
       "name": "mmdb-2009",
@@ -81,7 +81,7 @@
       "year": 2009,
       "url": "https://github.com/mimir-media-db/mmdb-2009",
       "movies": 5066,
-      "series": 1456
+      "series": 1595
     },
     {
       "name": "mmdb-2010",
@@ -89,7 +89,7 @@
       "year": 2010,
       "url": "https://github.com/mimir-media-db/mmdb-2010",
       "movies": 5058,
-      "series": 1428
+      "series": 1567
     },
     {
       "name": "mmdb-2011",
@@ -97,7 +97,7 @@
       "year": 2011,
       "url": "https://github.com/mimir-media-db/mmdb-2011",
       "movies": 5068,
-      "series": 1603
+      "series": 1601
     },
     {
       "name": "mmdb-2012",
@@ -113,7 +113,7 @@
       "year": 2013,
       "url": "https://github.com/mimir-media-db/mmdb-2013",
       "movies": 5627,
-      "series": 1532
+      "series": 1530
     },
     {
       "name": "mmdb-2014",
@@ -121,7 +121,7 @@
       "year": 2014,
       "url": "https://github.com/mimir-media-db/mmdb-2014",
       "movies": 6008,
-      "series": 1457
+      "series": 1450
     },
     {
       "name": "mmdb-2015",
@@ -129,7 +129,7 @@
       "year": 2015,
       "url": "https://github.com/mimir-media-db/mmdb-2015",
       "movies": 6241,
-      "series": 1432
+      "series": 1429
     },
     {
       "name": "mmdb-2016",
@@ -137,7 +137,7 @@
       "year": 2016,
       "url": "https://github.com/mimir-media-db/mmdb-2016",
       "movies": 8324,
-      "series": 1232
+      "series": 1229
     },
     {
       "name": "mmdb-2017",
@@ -145,7 +145,7 @@
       "year": 2017,
       "url": "https://github.com/mimir-media-db/mmdb-2017",
       "movies": 6306,
-      "series": 1184
+      "series": 1181
     },
     {
       "name": "mmdb-2018",
@@ -153,7 +153,7 @@
       "year": 2018,
       "url": "https://github.com/mimir-media-db/mmdb-2018",
       "movies": 6201,
-      "series": 1236
+      "series": 1231
     },
     {
       "name": "mmdb-2019",
@@ -161,7 +161,7 @@
       "year": 2019,
       "url": "https://github.com/mimir-media-db/mmdb-2019",
       "movies": 5672,
-      "series": 1254
+      "series": 1248
     },
     {
       "name": "mmdb-2020",
@@ -169,7 +169,7 @@
       "year": 2020,
       "url": "https://github.com/mimir-media-db/mmdb-2020",
       "movies": 4020,
-      "series": 1152
+      "series": 1144
     },
     {
       "name": "mmdb-2021",
@@ -177,7 +177,7 @@
       "year": 2021,
       "url": "https://github.com/mimir-media-db/mmdb-2021",
       "movies": 4217,
-      "series": 1319
+      "series": 1305
     },
     {
       "name": "mmdb-2022",
@@ -185,7 +185,7 @@
       "year": 2022,
       "url": "https://github.com/mimir-media-db/mmdb-2022",
       "movies": 4552,
-      "series": 1373
+      "series": 1367
     },
     {
       "name": "mmdb-2023",
@@ -193,7 +193,7 @@
       "year": 2023,
       "url": "https://github.com/mimir-media-db/mmdb-2023",
       "movies": 4425,
-      "series": 1228
+      "series": 1216
     },
     {
       "name": "mmdb-2024",
@@ -201,7 +201,7 @@
       "year": 2024,
       "url": "https://github.com/mimir-media-db/mmdb-2024",
       "movies": 3992,
-      "series": 1043
+      "series": 1034
     },
     {
       "name": "mmdb-2025",
@@ -209,15 +209,15 @@
       "year": 2025,
       "url": "https://github.com/mimir-media-db/mmdb-2025",
       "movies": 3399,
-      "series": 922
+      "series": 919
     },
     {
       "name": "mmdb-2026",
       "type": "year",
       "year": 2026,
       "url": "https://github.com/mimir-media-db/mmdb-2026",
-      "movies": 1666,
-      "series": 463
+      "movies": 1814,
+      "series": 535
     },
     {
       "name": "mmdb-meta",
@@ -421,8 +421,8 @@
     }
   ],
   "totals": {
-    "movies": 125860,
-    "series": 31728,
+    "movies": 126008,
+    "series": 31986,
     "people": 172962,
     "year_repos": 27,
     "people_repos": 26,
