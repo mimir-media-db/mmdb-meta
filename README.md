@@ -10,14 +10,14 @@
 
 | Metric | Value |
 |--------|-------|
-| 🎬 Movies | **126,091** |
-| 📺 Series | **32,043** |
+| 🎬 Movies | **126,183** |
+| 📺 Series | **32,084** |
 | 👤 People | **172,962** |
 | 📅 Years covered | **2000-2026** (27 repos) |
 | 🔤 People repos | **26** (a–z) |
 | 📦 Total repos | **56** |
 
-*Last updated: 2026-08-25*
+*Last updated: 2026-08-26*
 
 ## 🏗️ Repository Structure
 
