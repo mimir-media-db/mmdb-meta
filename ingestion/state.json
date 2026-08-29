@@ -4,7 +4,7 @@
   "backward_year": 2009,
   "backward_offset": 210,
   "last_recent_timestamp": "2026-01-01T00:00:00Z",
-  "last_run": "2026-08-29T02:47:13.018Z",
+  "last_run": "2026-08-29T02:47:14.025Z",
   "total_ingested": {
     "movies": 0,
     "series": 0,
@@ -20,7 +20,7 @@
     "started_at": null,
     "run_id": null
   },
-  "consecutive_empty_runs": 2,
+  "consecutive_empty_runs": 3,
   "repos_created_this_run": 0,
   "last_repo_created": null,
   "last_repo_created_at": null,
