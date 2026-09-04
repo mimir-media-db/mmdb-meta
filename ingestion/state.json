@@ -4,16 +4,16 @@
   "backward_year": 2009,
   "backward_offset": 140,
   "last_recent_timestamp": "2026-01-01T00:00:00Z",
-  "last_run": "2026-09-04T15:06:54.846Z",
+  "last_run": "2026-09-04T19:06:10.272Z",
   "total_ingested": {
     "movies": 0,
     "series": 0,
     "people": 0
   },
   "lock": {
-    "running": false,
-    "started_at": null,
-    "run_id": null
+    "running": true,
+    "started_at": "2026-09-04T19:06:10.187Z",
+    "run_id": "01d117f6-8f79-41a0-b097-bb758c9226d4"
   },
   "credits_lock": {
     "running": false,
