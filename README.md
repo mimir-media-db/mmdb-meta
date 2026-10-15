@@ -10,14 +10,14 @@
 
 | Metric | Value |
 |--------|-------|
-| 🎬 Movies | **126,435** |
+| 🎬 Movies | **121,367** |
 | 📺 Series | **32,234** |
 | 👤 People | **172,962** |
 | 📅 Years covered | **2000-2026** (27 repos) |
 | 🔤 People repos | **26** (a–z) |
 | 📦 Total repos | **56** |
 
-*Last updated: 2026-10-14*
+*Last updated: 2026-10-15*
 
 ## 🏗️ Repository Structure
 
@@ -45,8 +45,8 @@ Format: `mmdb-{YYYY}` — e.g., `mmdb-2024`, `mmdb-2010`
 | [2019](https://github.com/mimir-media-db/mmdb-2019) | 5,672 | 1,248 |
 | [2013](https://github.com/mimir-media-db/mmdb-2013) | 5,627 | 1,530 |
 | [2012](https://github.com/mimir-media-db/mmdb-2012) | 5,486 | 1,648 |
-| [2011](https://github.com/mimir-media-db/mmdb-2011) | 5,068 | 1,601 |
 | [2009](https://github.com/mimir-media-db/mmdb-2009) | 5,066 | 1,595 |
+| [2010](https://github.com/mimir-media-db/mmdb-2010) | 5,058 | 1,567 |
 
 ### People Repos (26)
 

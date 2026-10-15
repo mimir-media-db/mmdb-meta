@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-15",
   "org": "mimir-media-db",
   "repositories": [
     {
@@ -96,7 +96,7 @@
       "type": "year",
       "year": 2011,
       "url": "https://github.com/mimir-media-db/mmdb-2011",
-      "movies": 5068,
+      "movies": 0,
       "series": 1601
     },
     {
@@ -421,7 +421,7 @@
     }
   ],
   "totals": {
-    "movies": 126435,
+    "movies": 121367,
     "series": 32234,
     "people": 172962,
     "year_repos": 27,
