@@ -4,9 +4,9 @@
   "backward_year": 2009,
   "backward_offset": 70,
   "last_recent_timestamp": "2026-01-01T00:00:00Z",
-  "last_run": "2026-11-03T17:46:24.413Z",
+  "last_run": "2026-11-03T17:46:34.229Z",
   "total_ingested": {
-    "movies": 0,
+    "movies": 1,
     "series": 0,
     "people": 0
   },
