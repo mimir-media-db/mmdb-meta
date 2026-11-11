@@ -1,36 +1,8 @@
 {
-  "backlog_offset": 210,
-  "backlog_current_year": 2010,
-  "backward_year": 2009,
-  "backward_offset": 280,
-  "last_recent_timestamp": "2026-01-01T00:00:00Z",
-  "last_run": "2026-11-11T10:29:31.102Z",
-  "total_ingested": {
-    "movies": 86,
-    "series": 76,
-    "people": 0
-  },
-  "lock": {
-    "running": false,
-    "started_at": null,
-    "run_id": null
-  },
-  "credits_lock": {
-    "running": false,
-    "started_at": null,
-    "run_id": null
-  },
-  "consecutive_empty_runs": 2,
-  "repos_created_this_run": 0,
-  "last_repo_created": null,
-  "last_repo_created_at": null,
-  "current_year_offset_movies": 0,
-  "current_year_offset_series": 0,
-  "current_year": 2026,
-  "last_updated": "2026-11-10T14:25:39.535Z",
+  "last_updated": "2026-11-11T13:39:10.416Z",
   "totals": {
-    "movies": 126969,
-    "series": 32476,
+    "movies": 127052,
+    "series": 32552,
     "people": 172962
   },
   "year_range": {
