@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-13",
   "org": "mimir-media-db",
   "repositories": [
     {
@@ -88,7 +88,7 @@
       "type": "year",
       "year": 2010,
       "url": "https://github.com/mimir-media-db/mmdb-2010",
-      "movies": 5061,
+      "movies": 5063,
       "series": 1568
     },
     {
@@ -216,8 +216,8 @@
       "type": "year",
       "year": 2026,
       "url": "https://github.com/mimir-media-db/mmdb-2026",
-      "movies": 2852,
-      "series": 1100
+      "movies": 2964,
+      "series": 1171
     },
     {
       "name": "mmdb-meta",
@@ -421,8 +421,8 @@
     }
   ],
   "totals": {
-    "movies": 127052,
-    "series": 32552,
+    "movies": 127166,
+    "series": 32623,
     "people": 172962,
     "year_repos": 27,
     "people_repos": 26,
